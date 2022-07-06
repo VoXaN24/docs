@@ -1,16 +1,16 @@
 ---
 description: >-
   Ce petit tutoriel assez cours va vous permettre de télécharger et installer un
-  contener LXC sous Proxmox
+  conteneur LXC sous Proxmox
 ---
 
-# Crée un contener LXC
+# Crée un conteneur LXC
 
 
 
 1. Télécharger l'image que vous souhaitez
 
-* Allez a l'endroit où est stocké vos iso et template (Par défaut dans local)
+* Allez à l'endroit où est stocké vos iso et template (Par défaut dans local)
 
 ![Promox Panel](<.gitbook/assets/image (10).png>)
 
@@ -18,7 +18,7 @@ description: >-
 
 ![Ct Template Panel](<.gitbook/assets/image (4).png>)
 
-* Selectionnez le template que vous souhaitez télécharger
+* Sélectionner le template que vous souhaitez télécharger
 
 ![Ici par exemple Centos 8](<.gitbook/assets/image (1).png>)
 
@@ -28,11 +28,11 @@ description: >-
 
 2\. Créer la machine
 
-* Appuyez sur "Créer CT"
+* Appuyer sur "Créer CT"
 
 ![Promox panel](<.gitbook/assets/image (9).png>)
 
-* Rentrez le mot de passe SSH de la machine ou votre clé SSH, Puis configurer comme si vous configuriez une machine virtuel
+* Rentrer le mot de passe SSH de la machine ou votre clé SSH, Puis configurer comme si vous configuriez une machine virtuel
 
 &#x20;
 
@@ -52,10 +52,10 @@ description: >-
 
 ![Récapitulation](<.gitbook/assets/image (14).png>)
 
-* Patienter un petit moment aprés appuyé sur Terminé
+* Patienter un petit moment après appuyer sur Terminé
 
 ![](<.gitbook/assets/image (12).png>)
 
-* Et voila votre contener est en fonctionnement
+* Et voila votre conteneur est en fonctionnement
 
 ![](<.gitbook/assets/image (13).png>)
