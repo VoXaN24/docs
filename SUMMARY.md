@@ -2,4 +2,4 @@
 
 ## Proxmox
 
-* [Crée un contener LXC](README.md)
+* [Crée un conteneur LXC](README.md)
