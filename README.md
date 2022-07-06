@@ -12,7 +12,7 @@ description: >-
 
 * Allez à l'endroit où est stocké vos iso et template (Par défaut dans local)
 
-![Promox Panel](<.gitbook/assets/image (10).png>)
+![Promox Panel](<.gitbook/assets/image (10) (1).png>)
 
 * Puis dans CT Modèles -> Template
 
@@ -20,7 +20,7 @@ description: >-
 
 * Sélectionner le template que vous souhaitez télécharger
 
-![Ici par exemple Centos 8](<.gitbook/assets/image (1).png>)
+![Ici par exemple Centos 8](<.gitbook/assets/image (1) (1).png>)
 
 * Patienter le temps du téléchargement
 
@@ -36,17 +36,17 @@ description: >-
 
 &#x20;
 
-![Ecran 1](.gitbook/assets/image.png)
+![Ecran 1](<.gitbook/assets/image (1).png>)
 
-![Choix du template](<.gitbook/assets/image (3).png>)
+![Choix du template](<.gitbook/assets/image (3) (1).png>)
 
 ![taille du disque](<.gitbook/assets/image (8).png>)
 
 ![Nombre de coeur du CPU du contener](<.gitbook/assets/image (6).png>)
 
-![choix de la taille de ram et de l'espace swap](<.gitbook/assets/image (11).png>)
+![choix de la taille de ram et de l'espace swap](<.gitbook/assets/image (11) (1).png>)
 
-![Configuration du réseau](<.gitbook/assets/image (2).png>)
+![Configuration du réseau](<.gitbook/assets/image (2) (1).png>)
 
 ![Configuration des DNS](<.gitbook/assets/image (7).png>)
 
@@ -54,8 +54,8 @@ description: >-
 
 * Patienter un petit moment après appuyer sur Terminé
 
-![](<.gitbook/assets/image (12).png>)
+![](<.gitbook/assets/image (12) (1).png>)
 
 * Et voila votre conteneur est en fonctionnement
 
-![](<.gitbook/assets/image (13).png>)
+![](<.gitbook/assets/image (13) (1).png>)
