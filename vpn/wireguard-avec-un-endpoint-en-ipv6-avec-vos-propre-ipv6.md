@@ -17,7 +17,7 @@ Pour cette exemple je vais utiliser une machine herberger sur Microsoft Oracle C
 
 ![Choix du pays du tunnel](<../.gitbook/assets/image (13).png>)
 
-![Voila votre bloc d'IPv6](<../.gitbook/assets/image (10).png>)
+![Voila votre bloc d'IPv6](<../.gitbook/assets/image (10) (2).png>)
 
 3\. Application de vos IPv6 a votre serveur.
 
@@ -25,7 +25,7 @@ Pour cette exemple je vais utiliser une machine herberger sur Microsoft Oracle C
 
 * Allez dans "Exemple Configurations" -> Votre OS
 
-![](<../.gitbook/assets/image (2).png>)
+![](<../.gitbook/assets/image (2) (1).png>)
 
 * Copier la configuration dans `/etc/network/interfaces` &#x20;
 * Si vous avez (comme moi) netplan, ce n'est pas si simple...
@@ -92,7 +92,7 @@ Et voila votre serveur a de l'IPv6 !
 
 
 
-![](<../.gitbook/assets/image (3).png>)
+![](<../.gitbook/assets/image (3) (1).png>)
 
 3\. On va utiliser un petit script interactif :&#x20;
 
@@ -106,7 +106,7 @@ bash wireguard-install.sh
 
 4\. Crée votre premier client :&#x20;
 
-![](../.gitbook/assets/image.png)
+![](<../.gitbook/assets/image (10).png>)
 
 
 

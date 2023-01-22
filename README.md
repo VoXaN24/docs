@@ -30,27 +30,27 @@ description: >-
 
 * Appuyer sur "Créer CT"
 
-![Promox panel](<.gitbook/assets/image (9).png>)
+![Promox panel](<.gitbook/assets/image (9) (1).png>)
 
 * Rentrer le mot de passe SSH de la machine ou votre clé SSH, Puis configurer comme si vous configuriez une machine virtuel
 
 &#x20;
 
-![Ecran 1](<.gitbook/assets/image (1).png>)
+![Ecran 1](<.gitbook/assets/image (1) (2).png>)
 
-![Choix du template](<.gitbook/assets/image (3) (1).png>)
+![Choix du template](<.gitbook/assets/image (3) (1) (1).png>)
 
 ![taille du disque](<.gitbook/assets/image (8).png>)
 
-![Nombre de coeur du CPU du contener](<.gitbook/assets/image (6).png>)
+![Nombre de coeur du CPU du contener](<.gitbook/assets/image (6) (1).png>)
 
 ![choix de la taille de ram et de l'espace swap](<.gitbook/assets/image (11) (1).png>)
 
-![Configuration du réseau](<.gitbook/assets/image (2) (1).png>)
+![Configuration du réseau](<.gitbook/assets/image (2) (1) (1).png>)
 
 ![Configuration des DNS](<.gitbook/assets/image (7).png>)
 
-![Récapitulation](<.gitbook/assets/image (14).png>)
+![Récapitulation](<.gitbook/assets/image (14) (1).png>)
 
 * Patienter un petit moment après appuyer sur Terminé
 
