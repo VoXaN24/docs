@@ -1,12 +1,9 @@
 # Table of contents
 
-## ☁ Proxmox
+## ☁ Server
 
-* [Crée un conteneur LXC](README.md)
-
-## 🖥 VPN
-
-* [Wireguard avec un endpoint en IPv6 (Avec vos propre IPv6 !)](vpn/wireguard-avec-un-endpoint-en-ipv6-avec-vos-propre-ipv6.md)
+* [Crée un conteneur LXC Sur ProxMox](README.md)
+* [Wireguard avec un endpoint en IPv6 (Avec vos propre IPv6 !)](server/wireguard-avec-un-endpoint-en-ipv6-avec-vos-propre-ipv6.md)
 
 ## 💾 Old Software & OS
 
