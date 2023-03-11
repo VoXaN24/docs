@@ -8,3 +8,4 @@
 ## 💾 Old Software & OS
 
 * [Changer les dépôts de votre ancienne distribution Ubuntu](old-software-and-os/changer-les-depots-de-votre-ancienne-distribution-ubuntu.md)
+* [Migration Debian 10 -> Debian 11](old-software-and-os/migration-debian-10-greater-than-debian-11.md)

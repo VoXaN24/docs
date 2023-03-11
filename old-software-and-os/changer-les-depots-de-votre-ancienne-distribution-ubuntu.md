@@ -14,7 +14,7 @@ Il faut donc que vous modifier les dépots pour qu'il se synchronise avec les d�
 
 Ouvrer un terminal, et taper `sudo nano /etc/apt/source.list` , il devrait vous ouvrir le fichiers des sources avec nano.
 
-![](../.gitbook/assets/image.png)
+![](<../.gitbook/assets/image (3).png>)
 
 Appuyer simultanément sur `ctrl + w` puis `ctrl + r`&#x20;
 
@@ -32,7 +32,7 @@ Faire de même avec security.ubuntu.com
 
 ![](<../.gitbook/assets/image (16).png>)
 
-![](<../.gitbook/assets/image (3).png>)
+![](<../.gitbook/assets/image (3) (2).png>)
 
 
 

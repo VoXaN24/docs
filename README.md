@@ -4,7 +4,7 @@ description: >-
   conteneur LXC sous Proxmox
 ---
 
-# Crée un conteneur LXC
+# Crée un conteneur LXC Sur ProxMox
 
 
 
@@ -16,7 +16,7 @@ description: >-
 
 * Puis dans CT Modèles -> Template
 
-![Ct Template Panel](<.gitbook/assets/image (4).png>)
+![Ct Template Panel](<.gitbook/assets/image (4) (1).png>)
 
 * Sélectionner le template que vous souhaitez télécharger
 
