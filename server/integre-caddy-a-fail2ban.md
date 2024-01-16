@@ -9,7 +9,7 @@ ignoreregex =
 datepattern = LongEpoch
 ```
 
-Cela va permettre de filtrer les requette qui tombe en erreur 401/403 et 500
+Cela va permettre de filtrer les requête qui tombe en erreur 401/403 et 500
 
 ### 2. Crée le fichier `/etc/fail2ban/jail.d/caddy.conf`
 
