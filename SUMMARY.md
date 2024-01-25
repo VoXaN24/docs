@@ -6,6 +6,7 @@
 * [Wireguard avec un endpoint en IPv6 (Avec vos propre IPv6 !)](server/wireguard-avec-un-endpoint-en-ipv6-avec-vos-propre-ipv6.md)
 * [Intégré Nginx Proxy Manager à fail2ban](server/integre-nginx-proxy-manager-a-fail2ban.md)
 * [Intégré Caddy à fail2ban](server/integre-caddy-a-fail2ban.md)
+* [Installer et Configurer un serveur samba sur Ubuntu](server/installer-et-configurer-un-serveur-samba-sur-ubuntu.md)
 
 ## 💾 Old Software & OS
 
