@@ -1,8 +1,8 @@
 ---
-description: Comment crée son VLAN en CLI
+description: Comment crée son VLAN en CLI sur un routeur
 ---
 
-# Crée un VLAN
+# Crée un VLAN sur un routeur
 
 ### Création du VLAN
 

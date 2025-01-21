@@ -17,4 +17,4 @@
 ## Cisco Packet Tracer
 
 * [Installer Cisco Packet Tracer](cisco-packet-tracer/installer-cisco-packet-tracer.md)
-* [Crée un VLAN](cisco-packet-tracer/cree-un-vlan.md)
+* [Crée un VLAN sur un routeur](cisco-packet-tracer/cree-un-vlan-sur-un-routeur.md)
