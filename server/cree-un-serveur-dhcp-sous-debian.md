@@ -31,7 +31,6 @@ auto ens37
 iface ens37 inet static
  address 172.16.0.1 #Address de votre serveur DHCP
  netmask 255.255.0.0 #Masque de sous réseau, dans mon cas IP de classe B
- gateway 127.0.0.1 #Gateway
  dns-nameservers 172.16.0.1 #Serveur DNS, vous pouvez ne pas en renseigné ou renseigné votre DNS Interne ou un DNS Publique
 ```
 
@@ -89,15 +88,19 @@ option domain-name     "vm.local";
  
 # Déclaration d'un réseau
 subnet 172.16.0.0 netmask 255.255.0.0 {
-        range                           172.16.0.100 172.31.255.250; # Plage IP
+        range                           172.16.0.100 172.16.255.250; # Plage IP
         option domain-name-servers      1.1.1.1; # DNS Cloudflare
         option routers                  172.16.0.1; # Passerelle
 }
  
 ```
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+![](<../.gitbook/assets/image (30).png>)
 
 Et on active et démarre le service&#x20;
 
 <figure><img src="../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
+
+Pour rallier une autre machine, vous devez juste la mettre sur le même réseau et activé le DHCP
+
+<figure><img src="../.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
