@@ -95,3 +95,7 @@ subnet 192.168.0.0 netmask 255.255.0.0 {
 ```
 
 <figure><img src="../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
+
+Et on active et démarre le service&#x20;
+
+<figure><img src="../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
