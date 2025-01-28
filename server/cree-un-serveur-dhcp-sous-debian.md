@@ -1,6 +1,6 @@
 # Crée un serveur DHCP sous Débian
 
-### Installation de DHCP
+Installation de DHCP
 
 Pour installer un serveur DHCP il faut installer le paquet `isc-dhcp-server`
 
@@ -17,7 +17,7 @@ Pour installer un serveur DHCP il faut installer le paquet `isc-dhcp-server`
 
 Récupération de l'interface de notre carte réseau grâce à la commande `ip a`
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>Retours de la commande ip a</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption><p>Retours de la commande ip a</p></figcaption></figure>
 
 Ici, ma carte réseau sera `ens37`, mais je peux aussi utilisé son nom alternatif `enp2s5`
 
@@ -29,13 +29,13 @@ Dans mon cas, mon réseau aura pour bloc IP `172.16.0.0/16` et mon interface : `
 # DHCP
 auto ens37
 iface ens37 inet static
- address 176.16.0.1 #Address de votre serveur DHCP
+ address 172.16.0.1 #Address de votre serveur DHCP
  netmask 255.255.0.0 #Masque de sous réseau, dans mon cas IP de classe B
- gateway 176.16.0.1 #Gateway
- dns-nameservers 176.16.0.1 #Serveur DNS, vous pouvez ne pas en renseigné ou renseigné votre DNS Interne ou un DNS Publique
+ gateway 172.16.0.1 #Gateway
+ dns-nameservers 172.16.0.1 #Serveur DNS, vous pouvez ne pas en renseigné ou renseigné votre DNS Interne ou un DNS Publique
 ```
 
-<figure><img src="../.gitbook/assets/vmware_6XKHfPc6gG.png" alt=""><figcaption><p>Configuration dans le fichier de configuration</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 On redémarre la machine pour que la configuration s'applique
 
@@ -44,13 +44,15 @@ sudo shutdown -r now
 ```
 
 Et voila on a notre IP !\
-![](<../.gitbook/assets/image (2).png>)
+
+
+<figure><img src="../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
 
 ## Configuration du serveur DHCP
 
 #### Récupération de l'interface de notre carte réseau grâce a la commande `ip a`
 
-![](<../.gitbook/assets/image (3).png>)
+<figure><img src="../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
 
 Ici dans mon cas mon interface pour le DHCP c'est `ens37`
 
@@ -73,7 +75,7 @@ INTERFACESv4="ens37"
 
 Dans mon cas c'est `ens37`
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### On va modifier maintenant le fichier **`/etc/dhcp/dhcpd.conf`**
 
@@ -86,15 +88,15 @@ max-lease-time 172800;
 option domain-name     "vm.local";
  
 # Déclaration d'un réseau
-subnet 176.16.0.0 netmask 255.255.0.0 {
-        range                           192.168.0.100 192.168.255.250; # Plage IP
+subnet 172.16.0.0 netmask 255.255.0.0 {
+        range                           172.16.0.100 172.31.255.250; # Plage IP
         option domain-name-servers      1.1.1.1; # DNS Cloudflare
-        option routers                  192.168.1.1; # Passerelle
+        option routers                  172.16.0.1; # Passerelle
 }
  
 ```
 
-<figure><img src="../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 Et on active et démarre le service&#x20;
 

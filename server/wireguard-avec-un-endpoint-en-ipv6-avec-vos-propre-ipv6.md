@@ -25,7 +25,7 @@ Pour cette exemple je vais utiliser une machine herberger sur Microsoft Oracle C
 
 * Allez dans "Exemple Configurations" -> Votre OS
 
-![](<../.gitbook/assets/image (2) (1).png>)
+![](<../.gitbook/assets/image (2) (1) (2).png>)
 
 * Copier la configuration dans `/etc/network/interfaces` &#x20;
 * Si vous avez (comme moi) netplan, ce n'est pas si simple...
@@ -92,7 +92,7 @@ Et voila votre serveur a de l'IPv6 !
 
 
 
-![](<../.gitbook/assets/image (3) (1) (1).png>)
+![](<../.gitbook/assets/image (3) (1) (1) (1).png>)
 
 3\. On va utiliser un petit script interactif :&#x20;
 

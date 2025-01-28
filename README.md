@@ -16,15 +16,15 @@ description: >-
 
 * Puis dans CT Modèles -> Template
 
-![Ct Template Panel](<.gitbook/assets/image (4) (1).png>)
+![Ct Template Panel](<.gitbook/assets/image (4) (1) (1).png>)
 
 * Sélectionner le template que vous souhaitez télécharger
 
-![Ici par exemple Centos 8](<.gitbook/assets/image (1) (1).png>)
+![Ici par exemple Centos 8](<.gitbook/assets/image (1) (1) (1).png>)
 
 * Patienter le temps du téléchargement
 
-![Téléchargement de l'image de CentOS 8](<.gitbook/assets/image (5).png>)
+![Téléchargement de l'image de CentOS 8](<.gitbook/assets/image (5) (1).png>)
 
 2\. Créer la machine
 
@@ -38,7 +38,7 @@ description: >-
 
 ![Ecran 1](<.gitbook/assets/image (1) (2).png>)
 
-![Choix du template](<.gitbook/assets/image (3) (1) (1) (1).png>)
+![Choix du template](<.gitbook/assets/image (3) (1) (1) (1) (1).png>)
 
 ![taille du disque](<.gitbook/assets/image (8).png>)
 
