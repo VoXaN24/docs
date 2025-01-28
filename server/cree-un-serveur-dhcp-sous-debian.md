@@ -94,6 +94,4 @@ subnet 192.168.0.0 netmask 255.255.0.0 {
  
 ```
 
-
-
-<figure><img src="../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
