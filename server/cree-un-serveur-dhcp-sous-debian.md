@@ -31,7 +31,7 @@ auto ens37
 iface ens37 inet static
  address 172.16.0.1 #Address de votre serveur DHCP
  netmask 255.255.0.0 #Masque de sous réseau, dans mon cas IP de classe B
- gateway 172.16.0.1 #Gateway
+ gateway 127.0.0.1 #Gateway
  dns-nameservers 172.16.0.1 #Serveur DNS, vous pouvez ne pas en renseigné ou renseigné votre DNS Interne ou un DNS Publique
 ```
 
