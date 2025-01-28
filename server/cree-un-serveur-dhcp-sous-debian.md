@@ -104,3 +104,5 @@ Et on active et démarre le service&#x20;
 Pour rallier une autre machine, vous devez juste la mettre sur le même réseau et activé le DHCP
 
 <figure><img src="../.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (31).png" alt=""><figcaption></figcaption></figure>
