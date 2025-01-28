@@ -13,13 +13,46 @@ Pour installer un serveur DHCP il faut installer le paquet `isc-dhcp-server`
 \
 
 
+## Configuration des interface sur notre machine
+
+Récupération de l'interface de notre carte réseau grâce à la commande `ip a`
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>Retours de la commande ip a</p></figcaption></figure>
+
+Ici, ma carte réseau sera `ens37` , mais je peux aussi utilisé son nom alternatif `enp2s5`
+
+On doit renseigner l'IP de la carte réseau à l'avance en modifiant le fichier `/etc/network/interfaces`
+
+Dans mon cas, mon réseau aura pour bloc IP `192.168.1.0/24` et mon interface : `ens37`
+
+```
+# DHCP
+auto ens37
+iface ens37  inet static
+ address 192.168.0.1 #Address de votre serveur DHCP
+ netmask 255.255.0.0 #Masque de sous réseau, dans mon cas IP de classe B
+ gateway 192.168.0.1 #Gateway
+ dns-nameservers 192.168.0.1 #Serveur DNS, vous pouvez ne pas en renseigné ou renseigné votre DNS Interne ou un DNS Publique
+```
+
+<figure><img src="../.gitbook/assets/vmware_6XKHfPc6gG.png" alt=""><figcaption><p>Configuration dans le fichier de configuration</p></figcaption></figure>
+
+On redémarre la machine pour que la configuration s'applique
+
+```
+sudo shutdown -r now
+```
+
+Et voila on a notre IP !\
+![](<../.gitbook/assets/image (2).png>)
+
 ## Configuration du serveur DHCP
 
-#### Récupération de l'interface de notre carte réseau grace a la commande `ip a`
+#### Récupération de l'interface de notre carte réseau grâce a la commande `ip a`
 
-<figure><img src="../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+![](<../.gitbook/assets/image (3).png>)
 
-Ici dans mon cas mon interface pour le DHCP c'est `ens256`
+Ici dans mon cas mon interface pour le DHCP c'est `ens37`
 
 #### Fichier de configuration
 
@@ -34,13 +67,13 @@ Décommenté la ligne `DHCPDv4_CONF=/etc/dhcp/dhcpd.conf`
 Et on renseigne nos interface
 
 ```
-INTERFACESv4="ens256"
-INTERFACESv6="ens256"
+INTERFACESv4="ens37"
+#INTERFACESv6="ens37" il est commenté car je n'ai pas d'IPv6
 ```
 
-Dans mon cas c'est `ens256`
+Dans mon cas c'est `ens37`
 
-<figure><img src="../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 #### On va modifier maintenant le fichier **`/etc/dhcp/dhcpd.conf`**
 
@@ -53,8 +86,8 @@ max-lease-time 172800;
 option domain-name     "vm.local";
  
 # Déclaration d'un réseau
-subnet 192.168.1.0 netmask 255.255.255.0 {
-        range                           192.168.1.100 192.168.1.199; # Plage IP
+subnet 192.168.0.0 netmask 255.255.0.0 {
+        range                           192.168.0.100 192.168.255.250; # Plage IP
         option domain-name-servers      1.1.1.1; # DNS Cloudflare
         option routers                  192.168.1.1; # Passerelle
 }

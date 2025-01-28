@@ -14,17 +14,17 @@ Il faut donc que vous modifier les dépots pour qu'il se synchronise avec les d�
 
 Ouvrer un terminal, et taper `sudo nano /etc/apt/source.list` , il devrait vous ouvrir le fichiers des sources avec nano.
 
-![](<../.gitbook/assets/image (3).png>)
+![](<../.gitbook/assets/image (3) (1).png>)
 
 Appuyer simultanément sur `ctrl + w` puis `ctrl + r`&#x20;
 
 Puis dans le texte à remplacer, mettez le dépôt actuelle (ici fr.archive.ubuntu.com ici)
 
-![](<../.gitbook/assets/image (2).png>)
+![](<../.gitbook/assets/image (2) (2).png>)
 
 Puis le dépôt old-releases (old-releases.ubuntu.com)
 
-![](<../.gitbook/assets/image (1).png>)
+![](<../.gitbook/assets/image (1) (3).png>)
 
 Et remplacer toute les occurences.
 

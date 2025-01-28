@@ -92,7 +92,7 @@ Et voila votre serveur a de l'IPv6 !
 
 
 
-![](<../.gitbook/assets/image (3) (1).png>)
+![](<../.gitbook/assets/image (3) (1) (1).png>)
 
 3\. On va utiliser un petit script interactif :&#x20;
 
