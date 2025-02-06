@@ -20,7 +20,7 @@ description: >-
 
 * Sélectionner le template que vous souhaitez télécharger
 
-![Ici par exemple Centos 8](<.gitbook/assets/image (1) (1) (1).png>)
+![Ici par exemple Centos 8](<.gitbook/assets/image (1) (1) (1) (1).png>)
 
 * Patienter le temps du téléchargement
 

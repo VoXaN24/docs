@@ -48,6 +48,10 @@ Pour éviter tout problèmes on déplace l'ancienne base de donnée
 
 <figure><img src="../.gitbook/assets/image (43).png" alt=""><figcaption></figcaption></figure>
 
-Et voila ! OpenLDAP est installé !
-
 <figure><img src="../.gitbook/assets/image (44).png" alt=""><figcaption></figcaption></figure>
+
+On modifie la BASE et l'URI dans le fichier de configuration de LDAP `/etc/ldap/ldap.conf`
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+Et voila ! OpenLDAP est installé !
