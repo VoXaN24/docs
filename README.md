@@ -46,7 +46,7 @@ description: >-
 
 ![choix de la taille de ram et de l'espace swap](<.gitbook/assets/image (11) (1).png>)
 
-![Configuration du réseau](<.gitbook/assets/image (2) (1) (1).png>)
+![Configuration du réseau](<.gitbook/assets/image (2) (1) (1) (1).png>)
 
 ![Configuration des DNS](<.gitbook/assets/image (7).png>)
 

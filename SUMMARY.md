@@ -20,8 +20,3 @@
 * [Installer Cisco Packet Tracer](cisco-packet-tracer/installer-cisco-packet-tracer.md)
 * [Crée un VLAN sur un routeur](cisco-packet-tracer/cree-un-vlan.md)
 * [Crée un serveur DHCP sur un routeur](cisco-packet-tracer/cree-un-serveur-dhcp-sur-un-routeur.md)
-
-## OpenLDAP
-
-* [Installer et configurer OpenLDAP](openldap/installer-et-configurer-openldap.md)
-* [Création des compte utilisateurs](openldap/creation-des-compte-utilisateurs.md)
